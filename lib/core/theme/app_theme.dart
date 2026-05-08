@@ -51,10 +51,17 @@ class AppTheme {
       ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
+<<<<<<< HEAD
         fillColor: AppColors.fieldFill,
         contentPadding: const EdgeInsets.symmetric(
             horizontal: 16,
             vertical: 14
+=======
+        fillColor: AppColors.cardWhite,
+        contentPadding: const EdgeInsets.symmetric(
+            horizontal: 16,
+            vertical: 12
+>>>>>>> 6985128eb74a162011332415b978ab9952234243
       ),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(AppRadii.input),
@@ -67,13 +74,18 @@ class AppTheme {
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(AppRadii.input),
           borderSide: const BorderSide(
+<<<<<<< HEAD
               color: AppColors.deepNavy,
+=======
+              color: AppColors.logisticsNavy,
+>>>>>>> 6985128eb74a162011332415b978ab9952234243
               width: 2
           ),
         ),
         errorBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(AppRadii.input),
           borderSide: const BorderSide(
+<<<<<<< HEAD
               color: AppColors.criticalRed,
               width: 1.5,
           ),
@@ -83,6 +95,9 @@ class AppTheme {
           borderSide: const BorderSide(
               color: AppColors.criticalRed,
               width: 2,
+=======
+              color: AppColors.criticalRed
+>>>>>>> 6985128eb74a162011332415b978ab9952234243
           ),
         ),),
       textTheme: const TextTheme(

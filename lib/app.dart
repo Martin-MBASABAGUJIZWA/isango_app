@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:isango_app/screens/auth/sign_in_screen.dart';
 import 'package:isango_app/screens/auth/sign_up_screen.dart';
 import 'package:isango_app/screens/auth/verify_email_screen.dart';
+=======
+>>>>>>> 6985128eb74a162011332415b978ab9952234243
 import 'package:isango_app/screens/home/home_screen.dart';
 import 'package:isango_app/screens/saved/saved_screen.dart';
 import 'package:isango_app/screens/settings/settings_screen.dart';
@@ -19,6 +22,7 @@ class IsangoApp extends StatelessWidget {
       title: 'Isango',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light(),
+<<<<<<< HEAD
       initialRoute: AppRoutes.login,
       routes: {
         AppRoutes.home: (context) => const HomeScreen(),
@@ -35,3 +39,18 @@ class IsangoApp extends StatelessWidget {
     );
   }
 }
+=======
+      initialRoute: AppRoutes.home,
+      routes: {
+        AppRoutes.home: (context) => const HomeScreen(),
+        AppRoutes.saved:(context) => const SavedScreen(),
+        AppRoutes.submitEvent:(context) => const SubmitScreen(),
+        AppRoutes.settings:(context) => const SettingsScreen(),
+
+
+      },
+
+    );
+  }
+}
+>>>>>>> 6985128eb74a162011332415b978ab9952234243
